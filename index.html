@@ -3,6 +3,7 @@
 <head>
   <Title>Olivia Shen</Title>
   <link rel="stylesheet" href="style_sheet.css">
+
 </head>
 <body>
   <h1>Olivia Shen</h1>
@@ -21,6 +22,27 @@
   <p>
   <a href="https://www.youtube.com/watch?v=UMJm_97QXHA">Click here for Mitski jams!</a>
   </p>
+  <button onclick="myFunction()">Click me!</button>
+  <p id="demo"></p>
+  <script>
+  function myFunction() {
+    document.getElementById('demo').innerHTML="Hello";
+  }
+  </script>
+  <h3>Click the button to switch the flower!</h3>
+  <input type="button" onclick="changeImage()" value="Change">
+  <img src="JGI169-M.jpg" id="myImage" width="200">
+  <script>
+    function changeImage() {
+      var image= document.getElementById("myImage");
+      if (image.src.match("daisy-flower-1532449822.jpg")) {
+        image.src= "JGI169-M.jpg";
+      }
+      else {
+        image.src= "daisy-flower-1532449822.jpg";
+      }
+    }
+    </script>
 
 </body>
 </html>
