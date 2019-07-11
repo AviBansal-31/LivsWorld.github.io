@@ -1,36 +1,30 @@
 <!doctype html>
 <html>
 <head>
-  <Title>Olivia Shen</Title>
+  <Title>Liv's World</Title>
   <link rel="stylesheet" href="style_sheet.css">
 
 </head>
 <body>
-  <h1>Olivia Shen</h1>
+  <ul>
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about">About</a></li>
+  </ul>
+  <h1>Liv's World</h1>
   <p></p>
   <img src="IMG_7418.JPG" style="width:350px;">
     <h3>About Me:</h3>
-      I’m a 16 year old girl from the middle of nowhere Southern California
-      <br>spending the summer in San Francisco learning to code!
+      Hi, I'm Olivia Shen. I'm a 16-year-old girl from Southern California
+      <br>spending the summer in San Francisco learning to code.
     <p></p>
-    <h3>Likes:</h3>
-      Art
-      <br>Cartoons
-      <br>Graphic Novels
-      <br>Nature
-      <br>Hiking
-  <p>
   <a href="https://www.youtube.com/watch?v=UMJm_97QXHA">Click here for Mitski jams!</a>
   </p>
-  <button onclick="myFunction()">Click me!</button>
-  <p id="demo"></p>
-  <script>
-  function myFunction() {
-    document.getElementById('demo').innerHTML="Hello";
-  }
-  </script>
+
   <h3>Click the button to switch the flower!</h3>
-  <input type="button" onclick="changeImage()" value="Change">
+  <button onclick="changeImage()">Change</button>
+  <p></p>
   <img src="JGI169-M.jpg" id="myImage" width="200">
   <script>
     function changeImage() {
@@ -43,6 +37,7 @@
       }
     }
     </script>
+
 
 </body>
 </html>
