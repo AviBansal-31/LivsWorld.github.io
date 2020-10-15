@@ -15,4 +15,3 @@ for i in numberList:
 #this is how you find the sum of a list!
 
 print ("Here's the sum", SumOfAges)
-
